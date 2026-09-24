@@ -1,1 +1,201 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtuous Link | Homemade Food & Catering in Lugbe, Abuja</title>
+    <style>
+        :root {
+            --primary: #d97706; /* Warm amber/kitchen accent */
+            --secondary: #25D366; /* WhatsApp green */
+            --dark: #1f2937;
+            --light: #fffbeb;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: #333;
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80') center/cover no-repeat;
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .badge {
+            background-color: #fef3c7;
+            color: var(--primary);
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+
+        p.hero-sub {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            color: #e0e0e0;
+        }
+
+        .btn-whatsapp {
+            background-color: var(--secondary);
+            color: #ffffff;
+            padding: 14px 28px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            display: inline-block;
+            font-size: 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+
+        .btn-whatsapp:hover {
+            transform: scale(1.03);
+        }
+
+        /* Section Layouts */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background: var(--light);
+            border-radius: 8px;
+            padding: 25px;
+            text-align: center;
+            border-top: 4px solid var(--primary);
+        }
+
+        .service-card h3 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        /* Reviews */
+        .review-box {
+            background: #fff8e7;
+            border-left: 5px solid #d97706;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        .stars {
+            color: #d97706;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            color: #cccccc;
+        }
+
+        .contact-link {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <span class="badge">⭐ 4.8 Rated on Google Maps</span>
+        <h1>Virtuous Link Kitchen</h1>
+        <p class="hero-sub">Delicious Homemade Dishes, Drinks & Event Catering in Lugbe, Abuja</p>
+        <a href="https://wa.me/2347045929961?text=Hello%20Virtuous%20Link,%20I%20would%20like%20to%20order%20food%20/%20inquire%20about%20your%20catering." target="_blank" class="btn-whatsapp">
+            💬 Order / Inquire on WhatsApp
+        </a>
+    </header>
+
+    <!-- SERVICES SECTION -->
+    <section class="container">
+        <h2>Our Menu & Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Authentic Delicacies</h3>
+                <p>Rich, seasoned soups (Afang, Egusi, Ofe Nsala), swallow, and traditional meals prepared fresh to order.</p>
+            </div>
+            <div class="service-card">
+                <h3>Catering & Drinks</h3>
+                <p>Full-service food and drink supply for parties, office functions, and family gatherings across Lugbe & Abuja.</p>
+            </div>
+            <div class="service-card">
+                <h3>Fast Delivery</h3>
+                <p>Prompt, reliable doorstep delivery so your food arrives hot, fresh, and ready to enjoy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section class="container" style="background-color: var(--light); border-radius: 12px;">
+        <h2>What Our Customers Say</h2>
+        <div class="review-box">
+            <div class="stars">★★★★★</div>
+            <p><em>"The Afang soup at Virtuous Link kitchen is thick, rich, and full of authentic flavor... Well prepared with quality ingredients!"</em></p>
+            <strong style="display: block; margin-top: 5px; font-size: 0.9rem;">— Verified Customer Review</strong>
+        </div>
+        <div class="review-box">
+            <div class="stars">★★★★★</div>
+            <p><em>"Virtuous Kitchen is very timely with her orders delivery and the food is good."</em></p>
+            <strong style="display: block; margin-top: 5px; font-size: 0.9rem;">— Verified Customer Review</strong>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACT SECTION -->
+    <footer>
+        <h3 style="margin-bottom: 15px;">Virtuous Link</h3>
+        <p>📍 Location: Shop No 1 C Line, A&G Estate, Tundunwada, Lugbe, Abuja</p>
+        <p>📞 Phone: <a href="tel:07045929961" class="contact-link">0704 592 9961</a></p>
+        <p style="margin-top: 20px; font-size: 0.85rem; color: #888;">&copy; Virtuous Link. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
